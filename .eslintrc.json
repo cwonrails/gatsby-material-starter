@@ -8,7 +8,9 @@
     "rules": {
         "react/prefer-stateless-function": "off",
         "react/prop-types": "off",
-        "react/no-danger": "off"
+        "react/no-danger": "off",
+        "jsx-a11y/href-no-hash": "off",
+        "jsx-a11y/anchor-is-valid": ["warn", { "aspects": ["invalidHref"] }]
     },
     "settings": {
         "import/core-modules": []
